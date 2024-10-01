@@ -77,7 +77,11 @@ img {
         width: auto;
     }
 }
-
+.btn-eliminar{
+    border: none;
+    background: none;
+    width: 4rem;
+}
 
 /** Utilidades */
 .text-center {
