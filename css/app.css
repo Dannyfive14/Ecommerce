@@ -71,11 +71,19 @@ img {
     background-color: #769c02;
     cursor: pointer;
 }
+.boton-eliminar{
+    width: 5rem;
+    background-image: none;
+}
 
 @media (min-width: 768px) { 
     .btn {
         width: auto;
     }
+}
+.btn-delete{
+    border: none;
+    background: none;
 }
 
 
