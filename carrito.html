@@ -10,11 +10,18 @@
 </head>
 <body>
     <header>
-        <h1 class="nombre-sitio">Carrito de Compras</h1>
-        <nav class="nav-carrito">
-            <a class="btn" href="tienda.html">Volver a la Tienda</a>
-        </nav>
+        <h1 class="nombre-sitio">Tienda <span> Muebles </span></h1>
+        <div class="contenedor-navegacion">
+            <nav class="nav-principal contenedor">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
     </header>
+
+    
 
     <main class="contenido-principal contenedor">
         <h2 class="text-center">Productos en el Carrito</h2>
@@ -31,44 +38,22 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Producto 1</td>
-                    <td>$1,000,000.00</td>
+                    <td></td>
+                    <td></td>
                     <td>
-                        <input type="number" value="1" min="1" class="cantidad">
+                        <input>
                     </td>
-                    <td>$1,000,000.00</td>
+                    <td></td>
                     <td>
-                        <button class="btn">Eliminar</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Producto 2</td>
-                    <td>$1,500,000.00</td>
-                    <td>
-                        <input type="number" value="1" min="1" class="cantidad">
-                    </td>
-                    <td>$1,500,000.00</td>
-                    <td>
-                        <button class="btn">Eliminar</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Producto 3</td>
-                    <td>$750,000.00</td>
-                    <td>
-                        <input type="number" value="1" min="1" class="cantidad">
-                    </td>
-                    <td>$750,000.00</td>
-                    <td>
-                        <button class="btn">Eliminar</button>
+                        <button><img src="img/boton-x.png" alt="Eliminar"></button>
                     </td>
                 </tr>
             </tbody>
         </table>
 
         <div class="total-carrito">
-            <p><strong>Total:</strong> $3,250,000.00</p>
-            <a class="btn btn-pagar" href="pago.html">Proceder al Pago</a>
+            <p><strong>Total:</strong></p>
+            <a class="btn btn-pagar" href="#">Proceder al Pago</a>
         </div>
     </main>
 
