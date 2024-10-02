@@ -17,6 +17,7 @@
                 <a href="nosotros.html">Nosotros</a>
                 <a href="tienda.html">Tienda</a>
                 <a href="contacto.html">Contacto</a>
+                <a href="carrito.html">🛒</a>
             </nav>
         </div>
     </header>
@@ -26,7 +27,7 @@
     <main class="contenido-principal contenedor">
         <h2 class="text-center">Productos en el Carrito</h2>
         <div id="carrito">
-            <table id="lista-carrito" class="tabla-carrito">
+            <table  class="tabla-carrito">
                 <thead>
                     <tr>
                         <th>Producto</th>
@@ -36,17 +37,8 @@
                         <th>Acciones</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>
-                        </td>
-                        <td></td>
-                        <td>
-                            <button class="btn-eliminar"><img src="img/boton-x.png" alt="Eliminar"></button>
-                        </td>
-                    </tr>
+                <tbody id="lista-carrito">
+                <!-- Carrito items will be appended here -->
                 </tbody>
             </table>
         </div>
@@ -61,6 +53,6 @@
     <footer class="site-footer">
         <p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
     </footer>
-
+    <script src="script/script.js"></script>
 </body>
 </html>
